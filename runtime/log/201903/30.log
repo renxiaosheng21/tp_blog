@@ -1,0 +1,2681 @@
+---------------------------------------------------------------
+[ 2019-03-30T21:20:25+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/login/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/login/index.html [运行时间：0.092144s][吞吐率：10.85req/s] [内存消耗：2,686.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp64\www\personalBlog\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\login\login.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:25+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/captcha.html
+[ info ] localhost:8085/personalBlog/public/index.php/captcha.html [运行时间：0.086750s][吞吐率：11.53req/s] [内存消耗：2,224.16kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\personalBlog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:34+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/captcha.html?0.16669047253004488
+[ info ] localhost:8085/personalBlog/public/index.php/captcha.html?0.16669047253004488 [运行时间：0.047167s][吞吐率：21.20req/s] [内存消耗：2,224.48kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  '0_16669047253004488' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\personalBlog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:41+08:00 ] ::1 ::1 POST /personalBlog/public/index.php/admin/login/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/login/index.html [运行时间：0.127012s][吞吐率：7.87req/s] [内存消耗：4,284.88kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8085',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'ylx',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp64\www\personalBlog\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004354s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028977s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.008942s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:20:43+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/login/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/login/index.html [运行时间：0.032968s][吞吐率：30.33req/s] [内存消耗：2,686.87kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp64\www\personalBlog\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\login\login.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:43+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/captcha.html
+[ info ] localhost:8085/personalBlog/public/index.php/captcha.html [运行时间：0.045380s][吞吐率：22.04req/s] [内存消耗：2,224.02kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\personalBlog\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:53+08:00 ] ::1 ::1 POST /personalBlog/public/index.php/admin/login/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/login/index.html [运行时间：0.100017s][吞吐率：10.00req/s] [内存消耗：4,383.05kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8085',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'xev',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp64\www\personalBlog\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001706s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.026946s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:20:55+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/index/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/index/index.html [运行时间：0.058606s][吞吐率：17.06req/s] [内存消耗：2,695.02kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp64\www\personalBlog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:55+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.044346s][吞吐率：22.55req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:20:58+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/admin/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/admin/lst.html [运行时间：0.112334s][吞吐率：8.90req/s] [内存消耗：4,511.62kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\admin\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011325s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.021994s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_admin` LIMIT 1 [ RunTime:0.003767s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` LIMIT 0,3 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.040369s][吞吐率：24.77req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:00+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/cate/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/cate/lst.html [运行时间：0.097566s][吞吐率：10.25req/s] [内存消耗：4,499.20kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\cate\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010576s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.020109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_cate` LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 0,3 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.044457s][吞吐率：22.49req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:02+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/links/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/links/lst.html [运行时间：0.092442s][吞吐率：10.82req/s] [内存消耗：4,498.94kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'links',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Links->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Links.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\links\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001239s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_links` [ RunTime:0.018996s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_links` LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_links` LIMIT 0,3 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:02+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.037572s][吞吐率：26.62req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:05+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/tags/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/tags/lst.html [运行时间：0.099084s][吞吐率：10.09req/s] [内存消耗：4,017.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tags',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/links/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tags->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Tags.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\tags\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.023838s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_tags` LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` LIMIT 0,3 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.032449s][吞吐率：30.82req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:12+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/
+[ info ] localhost:8085/personalBlog/public/index.php/ [运行时间：0.156903s][吞吐率：6.37req/s] [内存消耗：4,077.04kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\personalBlog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013333s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.021366s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.019257s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.020528s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY id desc LIMIT 0,3 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:13+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/goto/my-65537.js [运行时间：0.046213s][吞吐率：21.64req/s] [内存消耗：2,195.52kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goto',
+    1 => 'my-65537.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:13+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.050306s][吞吐率：19.88req/s] [内存消耗：2,194.89kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:20+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/index/index.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/index/index.html [运行时间：0.144428s][吞吐率：6.92req/s] [内存消耗：4,077.59kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\personalBlog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001105s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.023481s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.018316s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.021894s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY id desc LIMIT 0,3 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:20+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.041040s][吞吐率：24.37req/s] [内存消耗：2,195.11kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:20+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/index/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/index/goto/my-65537.js [运行时间：0.209869s][吞吐率：4.76req/s] [内存消耗：3,840.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011090s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.022939s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.018439s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.018436s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:20+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.027511s][吞吐率：36.35req/s] [内存消耗：2,195.11kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:21+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/cate/index/cateid/1.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html [运行时间：0.155466s][吞吐率：6.43req/s] [内存消耗：4,087.52kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cate->index[ D:\wamp64\www\personalBlog\application\index\controller\Cate.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\cate\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'cateres',
+  5 => 'articleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012081s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.026437s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.023014s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.023277s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE  `cateid` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1 LIMIT 0,3 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/ismobile.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/ismobile.js [运行时间：0.051272s][吞吐率：19.50req/s] [内存消耗：2,195.13kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'ismobile.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.043955s][吞吐率：22.75req/s] [内存消耗：2,195.00kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:21+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/cate/index/cateid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/goto/my-65537.js [运行时间：0.171246s][吞吐率：5.84req/s] [内存消耗：4,076.03kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'cateid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Cate->index[ D:\wamp64\www\personalBlog\application\index\controller\Cate.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\cate\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'cateres',
+  5 => 'articleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003591s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.034684s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.027857s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.021145s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` WHERE  `cateid` = 0 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 0 LIMIT 0,3 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.021571s][吞吐率：46.36req/s] [内存消耗：2,195.00kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:23+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html [运行时间：0.174729s][吞吐率：5.72req/s] [内存消耗：4,071.91kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.024653s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.026308s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.029101s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 16 [ RunTime:0.005399s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%rsync 代码同步%'  AND `id` <> 16 ORDER BY id desc LIMIT 8 [ RunTime:0.001216s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:23+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.036683s][吞吐率：27.26req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:23+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js [运行时间：0.148458s][吞吐率：6.74req/s] [内存消耗：4,064.65kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.021233s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.020154s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.026736s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 0 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%%'  AND `id` <> null ORDER BY id desc LIMIT 8 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:23+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.045515s][吞吐率：21.97req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:56+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.063471s][吞吐率：15.76req/s] [内存消耗：2,195.11kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:56+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/index/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/index/goto/my-65537.js [运行时间：0.132031s][吞吐率：7.57req/s] [内存消耗：3,840.06kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'goto',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001222s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.028925s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.019585s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.019068s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:56+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.036392s][吞吐率：27.48req/s] [内存消耗：2,195.11kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:58+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.045504s][吞吐率：21.98req/s] [内存消耗：2,194.89kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:21:58+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/tags/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/tags/lst.html [运行时间：0.082930s][吞吐率：12.06req/s] [内存消耗：4,017.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tags',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/links/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tags->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Tags.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\tags\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001102s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.027929s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_tags` LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` LIMIT 0,3 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:21:59+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.038393s][吞吐率：26.05req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:22:01+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/tags/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/tags/lst.html [运行时间：0.081323s][吞吐率：12.30req/s] [内存消耗：4,017.61kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tags',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/tags/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tags->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Tags.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\tags\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010595s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.024129s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_tags` LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` LIMIT 0,3 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:22:02+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.032393s][吞吐率：30.87req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:22:04+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/links/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/links/lst.html [运行时间：0.072437s][吞吐率：13.81req/s] [内存消耗：4,498.94kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'links',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/tags/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Links->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Links.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\links\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_links` [ RunTime:0.027031s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_links` LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_links` LIMIT 0,3 [ RunTime:0.000248s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:22:04+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.041244s][吞吐率：24.25req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:22:05+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/article/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/lst.html [运行时间：0.099592s][吞吐率：10.04req/s] [内存消耗：4,722.91kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/links/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\article\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001094s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.018940s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` LIMIT 0,3 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.018877s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:22:06+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.036931s][吞吐率：27.08req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:22:08+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/article/edit/id/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html [运行时间：0.111993s][吞吐率：8.93req/s] [内存消耗：3,886.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->edit[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\article\edit.htm [ array (
+  0 => 'data',
+  1 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.027492s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.024807s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:22:08+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.042766s][吞吐率：23.38req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:13+08:00 ] ::1 ::1 POST /personalBlog/public/index.php/admin/article/edit/id/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html [运行时间：0.117437s][吞吐率：8.52req/s] [内存消耗：4,061.02kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '5079',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8085',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4FRG0GmkuvvhG3LL',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+  'title' => '主从同步',
+  'author' => 'renxiaosheng21',
+  'keywords' => 'rsync 代码同步',
+  'desc' => '服务器端代码的主从同步实现',
+  'cateid' => '1',
+  'state' => 'on',
+  'content' => '<p><span style="font-weight: bold;"></span></p><p><strong>工具rsync</strong></p><p>主服务器ip:192.168.20.129</p><p>从服务器ip:192.168.20.128</p><p><br/></p><p>-----------------</p><p><strong>主服务器配置</strong></p><p>-----------------</p><p><br/></p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p><br/></p><p>4.添加rsync配置</p><p>vim /etc/rsyncd.conf</p><p><br/></p><p>address = 192.168.20.129</p><p>secrets file = /etc/rsyncd.secrets</p><p>[php]</p><p>&nbsp; &nbsp; &nbsp; &nbsp; path = /data/sync #要同步代码的路径&nbsp; （这个注释不要有）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; read only = yes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; list = no</p><p><br/></p><p>5.添加密钥文件</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p><br/></p><p>6.重启rsync</p><p>systemctl restart rsyncd.service</p><p><img class="loadingclass" id="loading_jtvj5hfa" src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif" title="正在上传..."/></p><p>-----------------</p><p><strong>从服务器配置</strong></p><p>-----------------</p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p>4.添加密钥文件(注意要与主服务器密钥一致)</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p>5.添加自动执行代码同步sh脚本</p><p>vim /data/code_sync.sh</p><p><br/></p><p>#!/bin/sh</p><p>export RSYNC_SERVER=&quot;rsync@192.168.20.129&quot;</p><p><br/></p><p>/usr/bin/rsync -rtv --password-file=/etc/rsync.secrets --exclude &quot;config.php&quot; --exclude &quot;logs&quot; $RSYNC_SERVER::php/ /data/sync/</p><p><br/></p><p>6.设置crontab 自动任务</p><p>crontab -e</p><p><br/></p><p>*/5 * * * * /data/code_sync.sh</p><p><br/></p><p>注意：创建code_sync.sh文件后要检查该文件是否有可执行权限，没有的话需要修改文件权限</p><p>chmod&nbsp; 755 code_sync.sh&nbsp;</p><p>chmod&nbsp; 600&nbsp; rsyncd.secrets<br/></p><p><br/></p><p><strong>期间遇到的问题与解决办法：</strong></p><p>1、rsync: failed to connect to 172.16.1.41: No route to host (113)</p><p>&nbsp;&nbsp; rsync error: error in socket IO (code 10) at clientserver.c(124) [sender=3.0.6]</p><p>解决办法：关闭防火墙<span style="font-size: 13px; font-family: Verdana; background-color: rgb(254, 254, 242);">（iptables）</span></p><p>2、rsync failed Connection refused 111：重启rsync</p><p>3、@ERROR: chroot failed&nbsp;</p><p>rsync error: error starting client-server protocol (code 5) at main.c(1522) [receiver=3.0.3]</p><p>解决办法：<a href="https://www.baidu.com/s?wd=%E6%9C%8D%E5%8A%A1%E5%99%A8&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd">服务器</a>端的目录不存在或无权限，创建目录并修正权限可解决问题。</p><p>这里的解决办法：是去掉了同步目录后的注释</p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/></p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/>4、</p><p>rsync: opendir &quot;/.&quot; (in php) failed: Permission denied (13)</p><p><br/></p><p>sent 46 bytes&nbsp; received 104 bytes&nbsp; 300.00 bytes/sec</p><p>total size is 0&nbsp; speedup is 0.00</p><p>rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1650) [generator=3.1.2]</p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/></p><p>解决办法是：执行 setenforce 0 &nbsp; 关闭<a href="https://www.baidu.com/s?wd=Linux%E7%B3%BB%E7%BB%9F&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd">Linux系统</a>selinux</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->edit[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.027751s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `title`='主从同步',`author`='renxiaosheng21',`desc`='服务器端代码的主从同步实现',`keywords`='rsync 代码同步',`content`='<p><span style=\"font-weight: bold;\"></span></p><p><strong>工具rsync</strong></p><p>主服务器ip:192.168.20.129</p><p>从服务器ip:192.168.20.128</p><p><br/></p><p>-----------------</p><p><strong>主服务器配置</strong></p><p>-----------------</p><p><br/></p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p><br/></p><p>4.添加rsync配置</p><p>vim /etc/rsyncd.conf</p><p><br/></p><p>address = 192.168.20.129</p><p>secrets file = /etc/rsyncd.secrets</p><p>[php]</p><p>&nbsp; &nbsp; &nbsp; &nbsp; path = /data/sync #要同步代码的路径&nbsp; （这个注释不要有）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; read only = yes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; list = no</p><p><br/></p><p>5.添加密钥文件</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p><br/></p><p>6.重启rsync</p><p>systemctl restart rsyncd.service</p><p><img class=\"loadingclass\" id=\"loading_jtvj5hfa\" src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\" title=\"正在上传...\"/></p><p>-----------------</p><p><strong>从服务器配置</strong></p><p>-----------------</p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p>4.添加密钥文件(注意要与主服务器密钥一致)</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p>5.添加自动执行代码同步sh脚本</p><p>vim /data/code_sync.sh</p><p><br/></p><p>#!/bin/sh</p><p>export RSYNC_SERVER=&quot;rsync@192.168.20.129&quot;</p><p><br/></p><p>/usr/bin/rsync -rtv --password-file=/etc/rsync.secrets --exclude &quot;config.php&quot; --exclude &quot;logs&quot; $RSYNC_SERVER::php/ /data/sync/</p><p><br/></p><p>6.设置crontab 自动任务</p><p>crontab -e</p><p><br/></p><p>*/5 * * * * /data/code_sync.sh</p><p><br/></p><p>注意：创建code_sync.sh文件后要检查该文件是否有可执行权限，没有的话需要修改文件权限</p><p>chmod&nbsp; 755 code_sync.sh&nbsp;</p><p>chmod&nbsp; 600&nbsp; rsyncd.secrets<br/></p><p><br/></p><p><strong>期间遇到的问题与解决办法：</strong></p><p>1、rsync: failed to connect to 172.16.1.41: No route to host (113)</p><p>&nbsp;&nbsp; rsync error: error in socket IO (code 10) at clientserver.c(124) [sender=3.0.6]</p><p>解决办法：关闭防火墙<span style=\"font-size: 13px; font-family: Verdana; background-color: rgb(254, 254, 242);\">（iptables）</span></p><p>2、rsync failed Connection refused 111：重启rsync</p><p>3、@ERROR: chroot failed&nbsp;</p><p>rsync error: error starting client-server protocol (code 5) at main.c(1522) [receiver=3.0.3]</p><p>解决办法：<a href=\"https://www.baidu.com/s?wd=%E6%9C%8D%E5%8A%A1%E5%99%A8&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd\">服务器</a>端的目录不存在或无权限，创建目录并修正权限可解决问题。</p><p>这里的解决办法：是去掉了同步目录后的注释</p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/></p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/>4、</p><p>rsync: opendir &quot;/.&quot; (in php) failed: Permission denied (13)</p><p><br/></p><p>sent 46 bytes&nbsp; received 104 bytes&nbsp; 300.00 bytes/sec</p><p>total size is 0&nbsp; speedup is 0.00</p><p>rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1650) [generator=3.1.2]</p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/></p><p>解决办法是：执行 setenforce 0 &nbsp; 关闭<a href=\"https://www.baidu.com/s?wd=Linux%E7%B3%BB%E7%BB%9F&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd\">Linux系统</a>selinux</p><p><br/></p>',`cateid`=1,`state`=1  WHERE  `id` = 16 [ RunTime:0.000793s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:16+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/article/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/lst.html [运行时间：0.126151s][吞吐率：7.93req/s] [内存消耗：4,723.48kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\article\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011420s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.024570s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` LIMIT 0,3 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.018912s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:16+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.055416s][吞吐率：18.05req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:18+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/article/edit/id/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html [运行时间：0.125803s][吞吐率：7.95req/s] [内存消耗：3,886.98kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->edit[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\article\edit.htm [ array (
+  0 => 'data',
+  1 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.024329s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.022549s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:18+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.048775s][吞吐率：20.50req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:25+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html [运行时间：0.161959s][吞吐率：6.17req/s] [内存消耗：4,073.13kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011592s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.026034s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.020557s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.022796s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 16 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%rsync 代码同步%'  AND `id` <> 16 ORDER BY id desc LIMIT 8 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:25+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.059002s][吞吐率：16.95req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:26+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js [运行时间：0.149787s][吞吐率：6.68req/s] [内存消耗：4,065.31kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001274s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.033864s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.023031s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.021327s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 0 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%%'  AND `id` <> null ORDER BY id desc LIMIT 8 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:26+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.033765s][吞吐率：29.62req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:36+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.044238s][吞吐率：22.60req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:36+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.051462s][吞吐率：19.43req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:27:52+08:00 ] ::1 ::1 POST /personalBlog/public/index.php/admin/article/edit/id/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html [运行时间：0.105863s][吞吐率：9.45req/s] [内存消耗：4,059.87kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'content-length' => '4908',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8085',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5BffBMe6ueAtjRzJ',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+  'title' => '主从同步',
+  'author' => 'renxiaosheng21',
+  'keywords' => 'rsync 代码同步',
+  'desc' => '服务器端代码的主从同步实现',
+  'cateid' => '1',
+  'state' => 'on',
+  'content' => '<p><span style="font-weight: bold;"></span></p><p><strong>工具rsync</strong></p><p>主服务器ip:192.168.20.129</p><p>从服务器ip:192.168.20.128</p><p><br/></p><p>-----------------</p><p><strong>主服务器配置</strong></p><p>-----------------</p><p><br/></p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p><br/></p><p>4.添加rsync配置</p><p>vim /etc/rsyncd.conf</p><p><br/></p><p>address = 192.168.20.129</p><p>secrets file = /etc/rsyncd.secrets</p><p>[php]</p><p>&nbsp; &nbsp; &nbsp; &nbsp; path = /data/sync #要同步代码的路径&nbsp; （这个注释不要有）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; read only = yes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; list = no</p><p><br/></p><p>5.添加密钥文件</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p><br/></p><p>6.重启rsync</p><p>systemctl restart rsyncd.service</p><p><br/></p><p>-----------------</p><p><strong>从服务器配置</strong></p><p>-----------------</p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p>4.添加密钥文件(注意要与主服务器密钥一致)</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p>5.添加自动执行代码同步sh脚本</p><p>vim /data/code_sync.sh</p><p><br/></p><p>#!/bin/sh</p><p>export RSYNC_SERVER=&quot;rsync@192.168.20.129&quot;</p><p><br/></p><p>/usr/bin/rsync -rtv --password-file=/etc/rsync.secrets --exclude &quot;config.php&quot; --exclude &quot;logs&quot; $RSYNC_SERVER::php/ /data/sync/</p><p><br/></p><p>6.设置crontab 自动任务</p><p>crontab -e</p><p><br/></p><p>*/5 * * * * /data/code_sync.sh</p><p><br/></p><p>注意：创建code_sync.sh文件后要检查该文件是否有可执行权限，没有的话需要修改文件权限</p><p>chmod&nbsp; 755 code_sync.sh&nbsp;</p><p>chmod&nbsp; 600&nbsp; rsyncd.secrets<br/></p><p><br/></p><p><strong>期间遇到的问题与解决办法：</strong></p><p>1、rsync: failed to connect to 172.16.1.41: No route to host (113)</p><p>&nbsp;&nbsp; rsync error: error in socket IO (code 10) at clientserver.c(124) [sender=3.0.6]</p><p>解决办法：关闭防火墙<span style="font-size: 13px; font-family: Verdana; background-color: rgb(254, 254, 242);">（iptables）</span></p><p>2、rsync failed Connection refused 111：重启rsync</p><p>3、@ERROR: chroot failed&nbsp;</p><p>rsync error: error starting client-server protocol (code 5) at main.c(1522) [receiver=3.0.3]</p><p>解决办法：<a href="https://www.baidu.com/s?wd=%E6%9C%8D%E5%8A%A1%E5%99%A8&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd">服务器</a>端的目录不存在或无权限，创建目录并修正权限可解决问题。</p><p>这里的解决办法：是去掉了同步目录后的注释</p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/></p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/>4、</p><p>rsync: opendir &quot;/.&quot; (in php) failed: Permission denied (13)</p><p><br/></p><p>sent 46 bytes&nbsp; received 104 bytes&nbsp; 300.00 bytes/sec</p><p>total size is 0&nbsp; speedup is 0.00</p><p>rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1650) [generator=3.1.2]</p><p><img src="http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif"/></p><p>解决办法是：执行 setenforce 0 &nbsp; 关闭<a href="https://www.baidu.com/s?wd=Linux%E7%B3%BB%E7%BB%9F&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd">Linux系统</a>selinux</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->edit[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012292s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.031152s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `title`='主从同步',`author`='renxiaosheng21',`desc`='服务器端代码的主从同步实现',`keywords`='rsync 代码同步',`content`='<p><span style=\"font-weight: bold;\"></span></p><p><strong>工具rsync</strong></p><p>主服务器ip:192.168.20.129</p><p>从服务器ip:192.168.20.128</p><p><br/></p><p>-----------------</p><p><strong>主服务器配置</strong></p><p>-----------------</p><p><br/></p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p><br/></p><p>4.添加rsync配置</p><p>vim /etc/rsyncd.conf</p><p><br/></p><p>address = 192.168.20.129</p><p>secrets file = /etc/rsyncd.secrets</p><p>[php]</p><p>&nbsp; &nbsp; &nbsp; &nbsp; path = /data/sync #要同步代码的路径&nbsp; （这个注释不要有）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; read only = yes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; list = no</p><p><br/></p><p>5.添加密钥文件</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p><br/></p><p>6.重启rsync</p><p>systemctl restart rsyncd.service</p><p><br/></p><p>-----------------</p><p><strong>从服务器配置</strong></p><p>-----------------</p><p>1.安装rsync</p><p>yum -y install rsync&nbsp;</p><p>2.启动rsync</p><p>systemctl start rsyncd.service</p><p>systemctl enable rsyncd.service</p><p>3.检查是否已经启动</p><p>netstat -lnp|grep 873</p><p>4.添加密钥文件(注意要与主服务器密钥一致)</p><p>vim /etc/rsyncd.secrets</p><p><br/></p><p>8my7QhPP5UPaEHDbzxCOOWjYU4</p><p>5.添加自动执行代码同步sh脚本</p><p>vim /data/code_sync.sh</p><p><br/></p><p>#!/bin/sh</p><p>export RSYNC_SERVER=&quot;rsync@192.168.20.129&quot;</p><p><br/></p><p>/usr/bin/rsync -rtv --password-file=/etc/rsync.secrets --exclude &quot;config.php&quot; --exclude &quot;logs&quot; $RSYNC_SERVER::php/ /data/sync/</p><p><br/></p><p>6.设置crontab 自动任务</p><p>crontab -e</p><p><br/></p><p>*/5 * * * * /data/code_sync.sh</p><p><br/></p><p>注意：创建code_sync.sh文件后要检查该文件是否有可执行权限，没有的话需要修改文件权限</p><p>chmod&nbsp; 755 code_sync.sh&nbsp;</p><p>chmod&nbsp; 600&nbsp; rsyncd.secrets<br/></p><p><br/></p><p><strong>期间遇到的问题与解决办法：</strong></p><p>1、rsync: failed to connect to 172.16.1.41: No route to host (113)</p><p>&nbsp;&nbsp; rsync error: error in socket IO (code 10) at clientserver.c(124) [sender=3.0.6]</p><p>解决办法：关闭防火墙<span style=\"font-size: 13px; font-family: Verdana; background-color: rgb(254, 254, 242);\">（iptables）</span></p><p>2、rsync failed Connection refused 111：重启rsync</p><p>3、@ERROR: chroot failed&nbsp;</p><p>rsync error: error starting client-server protocol (code 5) at main.c(1522) [receiver=3.0.3]</p><p>解决办法：<a href=\"https://www.baidu.com/s?wd=%E6%9C%8D%E5%8A%A1%E5%99%A8&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd\">服务器</a>端的目录不存在或无权限，创建目录并修正权限可解决问题。</p><p>这里的解决办法：是去掉了同步目录后的注释</p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/></p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/>4、</p><p>rsync: opendir &quot;/.&quot; (in php) failed: Permission denied (13)</p><p><br/></p><p>sent 46 bytes&nbsp; received 104 bytes&nbsp; 300.00 bytes/sec</p><p>total size is 0&nbsp; speedup is 0.00</p><p>rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1650) [generator=3.1.2]</p><p><img src=\"http://127.0.0.1:8085/personalBlog/public//static/admin/ueditor/themes/default/images/spacer.gif\"/></p><p>解决办法是：执行 setenforce 0 &nbsp; 关闭<a href=\"https://www.baidu.com/s?wd=Linux%E7%B3%BB%E7%BB%9F&tn=24004469_oem_dg&rsv_dl=gh_pl_sl_csd\">Linux系统</a>selinux</p><p><br/></p>',`cateid`=1,`state`=1  WHERE  `id` = 16 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:54+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/admin/article/lst.html
+[ info ] localhost:8085/personalBlog/public/index.php/admin/article/lst.html [运行时间：0.119554s][吞吐率：8.36req/s] [内存消耗：4,723.16kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/admin/article/edit/id/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ D:\wamp64\www\personalBlog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/admin\view\article\list.htm [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011307s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.023129s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` LIMIT 0,3 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.018750s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:27:54+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1:8085/personalBlog/public//static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.049984s][吞吐率：20.01req/s] [内存消耗：2,195.69kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8085',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1:8085/personalBlog/public//static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:34+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html [运行时间：0.148308s][吞吐率：6.74req/s] [内存消耗：4,072.25kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011246s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.022271s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.020618s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.020230s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 16 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.001758s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%rsync 代码同步%'  AND `id` <> 16 ORDER BY id desc LIMIT 8 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.043870s][吞吐率：22.79req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:34+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js [运行时间：0.173679s][吞吐率：5.76req/s] [内存消耗：4,064.65kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003967s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.033622s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.021871s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.022630s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 0 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%%'  AND `id` <> null ORDER BY id desc LIMIT 8 [ RunTime:0.000178s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.027035s][吞吐率：36.99req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:37+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html [运行时间：0.161630s][吞吐率：6.19req/s] [内存消耗：4,072.25kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011660s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.027945s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.022300s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.022303s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 16 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%rsync 代码同步%'  AND `id` <> 16 ORDER BY id desc LIMIT 8 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.036518s][吞吐率：27.38req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:37+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js [运行时间：0.169725s][吞吐率：5.89req/s] [内存消耗：4,064.65kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001109s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.026740s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.020657s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.019661s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 0 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%%'  AND `id` <> null ORDER BY id desc LIMIT 8 [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.029086s][吞吐率：34.38req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:38+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/16.html
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html [运行时间：0.131420s][吞吐率：7.61req/s] [内存消耗：4,072.25kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/cate/index/cateid/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001141s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.024392s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.018271s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.018333s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 16 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%rsync 代码同步%'  AND `id` <> 16 ORDER BY id desc LIMIT 8 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:38+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.043819s][吞吐率：22.82req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-30T21:29:38+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/index/article/index/arid/goto/my-65537.js [运行时间：0.163921s][吞吐率：6.10req/s] [内存消耗：4,064.65kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=1fbecbvnirttnm0qaa1t3egkf0',
+)
+[ info ] [ PARAM ] array (
+  'arid' => 'goto',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\wamp64\www\personalBlog\application\index\controller\Article.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\article\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+  5 => 'cateres',
+  6 => 'recres',
+  7 => 'ralateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001285s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.029313s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.025843s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.021423s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] UPDATE `tp_article`  SET `click`=click+1  WHERE  `id` = 0 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cateid` = 1  AND `state` = 1 LIMIT 8 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `keywords` LIKE '%%'  AND `id` <> null ORDER BY id desc LIMIT 8 [ RunTime:0.000182s ]
+---------------------------------------------------------------
+[ 2019-03-30T21:29:38+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.024151s][吞吐率：41.41req/s] [内存消耗：2,195.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/index/article/index/arid/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File

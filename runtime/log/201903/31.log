@@ -1,0 +1,97 @@
+---------------------------------------------------------------
+[ 2019-03-31T20:06:22+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/
+[ info ] localhost:8085/personalBlog/public/index.php/ [运行时间：0.158103s][吞吐率：6.32req/s] [内存消耗：4,077.03kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=lqbkd7b2u257jg82u6g7k2c1a2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\personalBlog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\personalBlog\public/../application/index\view\index\index.html [ array (
+  0 => 'cates',
+  1 => 'tagss',
+  2 => 'clicks',
+  3 => 'recs',
+  4 => 'articleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:dbname=personblog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012762s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY id asc [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_tags` [ RunTime:0.010301s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_tags` ORDER BY id desc [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.014529s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY click desc LIMIT 4 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `state` = 1 ORDER BY click desc LIMIT 4 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_article` LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` ORDER BY id desc LIMIT 0,3 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2019-03-31T20:06:22+08:00 ] ::1 ::1 GET /personalBlog/public/index.php/goto/my-65537.js
+[ info ] localhost:8085/personalBlog/public/index.php/goto/my-65537.js [运行时间：0.059813s][吞吐率：16.72req/s] [内存消耗：2,195.52kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goto',
+    1 => 'my-65537.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+  'cookie' => 'Phpstorm-7bb51ccc=336c74aa-4156-409e-ab67-6c44bdd825ae; Hm_lvt_8cc45d54c337ca616c34b1cf747da91c=1535467414; CNZZDATA155540=cnzz_eid%3D787196769-1457399780-%26ntime%3D1457399780; PHPSESSID=lqbkd7b2u257jg82u6g7k2c1a2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-03-31T20:06:23+08:00 ] 127.0.0.1 127.0.0.1 GET /personalBlog/public//static/index/images/js/count_zixun.js
+[ info ] 127.0.0.1:8085/personalBlog/public//static/index/images/js/count_zixun.js [运行时间：0.087643s][吞吐率：11.41req/s] [内存消耗：2,194.89kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp64\www\personalBlog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8085',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8085/personalBlog/public/index.php/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,ja;q=0.7',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'count_zixun.js',
+)
+[ info ] [ LOG ] INIT File
