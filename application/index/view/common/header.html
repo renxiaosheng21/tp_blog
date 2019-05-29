@@ -1,0 +1,25 @@
+<!--顶部通栏-->
+<div class="ladytop">
+            <div class="nav">
+                <div class="left"><a href=""><img src="__PUBLIC__/images/hunshang.png" alt="wed114婚尚"></a></div>
+                <div class="right">
+                    <div class="box">
+                        <a href="{:url('index/index')}"  rel='dropmenu209'>首页</a> 
+                        {volist name="cates" id="value"}
+                            <a href="{:url('cate/index',array('cateid'=>$value['id']))}"  rel='dropmenu209'>{$value.catename}</a> 
+                        {/volist}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="hotmenu">
+	<div class="con">热门标签：
+        {volist name='tagss' id='v'}
+        <a href='http://127.0.0.1:81/personalBlog/public/index.php/index/search/index?keywords={$v.tagname}'>{$v.tagname}</a> 
+        {/volist}
+
+    </div>
+</div>
+
+<!--顶部通栏-->
